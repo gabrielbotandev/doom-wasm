@@ -1,0 +1,15 @@
+{
+  "name": "doom-browser",
+  "private": true,
+  "packageManager": "npm@11.6.1",
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "build": "npm --workspace web run build",
+    "build:wasm": "./engine/scripts/build_wasm.sh",
+    "clean": "./engine/scripts/clean.sh",
+    "dev": "npm --workspace web run dev -- --host 127.0.0.1",
+    "preview": "npm --workspace web run preview -- --host 127.0.0.1"
+  }
+}
