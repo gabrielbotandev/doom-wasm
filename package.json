@@ -1,5 +1,5 @@
 {
-  "name": "doom-browser",
+  "name": "doomwasm",
   "private": true,
   "packageManager": "npm@11.6.1",
   "workspaces": [

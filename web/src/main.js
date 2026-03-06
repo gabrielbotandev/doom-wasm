@@ -1,6 +1,6 @@
 import './styles.css';
 
-const STORAGE_KEY = 'doom-browser.selection';
+const STORAGE_KEY = 'doomwasm.selection';
 const DEFAULT_IWAD_PATH = '/iwads/freedoom2.wad';
 const DEFAULT_IWAD_NAME = 'freedoom2.wad';
 const ENGINE_MODULE_URL = `${import.meta.env.BASE_URL}engine/chocolate-doom.js`;

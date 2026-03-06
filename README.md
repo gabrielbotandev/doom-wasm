@@ -1,4 +1,4 @@
-# Doom Browser
+# Doom Wasm
 
 Browser-playable Chocolate Doom compiled to WebAssembly, with `freedoom2.wad` bundled as the default redistributable IWAD. Users can also load their own IWAD/WAD files at runtime. No proprietary Doom data is included in this repository.
 

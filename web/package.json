@@ -1,5 +1,5 @@
 {
-  "name": "doom-browser-web",
+  "name": "doomwasm-web",
   "private": true,
   "type": "module",
   "scripts": {
